@@ -14,6 +14,12 @@ const SobreMim = styled.section`
   justify-content: space-around;
     width: 100vw;
   `
+
+const Interesses = styled.div`
+display: flex;
+justify-content: space-around;
+  width: 100vw;
+`
   const Img = styled.img` 
   height: 10vh;
 `
@@ -33,8 +39,12 @@ function Sobre(){
 
             <MinhasRedes>            
             <a href="https://github.com/karinportfolio" target="_blank"> <Img src={Git} alt="github"/></a>
-            <a hreg="https://www.linkedin.com/in/karinabe/" target="_blank"><Img src={Lin} alt="linkedin"/></a>        
+            <a href="https://www.linkedin.com/in/karinabe/" target="_blank"><Img src={Lin} alt="linkedin"/></a>        
             </MinhasRedes>   
+
+            <Interesses>            
+            Gosto de desenhar     
+            </Interesses> 
         </SobreMim>
         
 
