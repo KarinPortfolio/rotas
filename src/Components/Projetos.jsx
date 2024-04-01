@@ -5,54 +5,40 @@ import C from '../assets/C.png'
 import D from '../assets/D.png'
 import E from '../assets/E.png'
 import F from '../assets/F.png'
-import styled from "styled-components"
-
-const MioloSection = styled.section`
-  display: flex;
-  height: 80vh;
-  justify-content: space-evenly;
-  align-items: center;
-`
-const MioloDiv = styled.div`
-  width: 300vw;  
-`
-
-const Img = styled.img` 
-  height: 20vh;
-  padding: 0.8rem;
-`
+import * as S from "./Style.jsx"
 
 function Projetos(){
     return(
-        <MioloSection>   
-          <MioloDiv>
-      <Img src={A} alt="bruzine"/>
-      <p>Repositório: <a href="https://github.com/KarinPortfolio/bruzine" target="_blank">A</a></p>
-      <p>Site: <a href="http://bruzine.vercel.app" target="_blank">A</a> </p>
+        <S.MioloSection>   
+          <S.MioloDiv>
+             <S.Port src={A} alt="bruzine"/>
+            <p>Repositório: <a href="https://github.com/KarinPortfolio/bruzine" target="_blank">https://github.com/KarinPortfolio/bruzine</a></p>
+            <p>Site: <a href="http://bruzine.vercel.app" target="_blank">http://bruzine.vercel.app</a> </p>
             
-      <Img src={B} alt="fantastika"/>
-      <p>Repositório: <a href="https://github.com/KarinPortfolio/fantastika" target="_blank">A</a></p>
-      <p>Site: <a href="http://karinportfolio.github.io/fantastika/" target="_blank">A</a></p>
+            <S.Port src={B} alt="fantastika"/>
+            <p>Repositório: <a href="https://github.com/KarinPortfolio/fantastika" target="_blank">https://github.com/KarinPortfolio/fantastika</a></p>
+            <p>Site: <a href="http://karinportfolio.github.io/fantastika/" target="_blank">http://karinportfolio.github.io/fantastika/</a></p>
 
-      <Img src={C} alt="estilosa"/>
-      <p>Repositório: <a href="https://github.com/KarinPortfolio/estilosa" target="_blank">A</a></p>
-      <p>Site: <a href="http://estilosa.vercel.app" target="_blank">A</a></p>
-      </MioloDiv>
-      <MioloDiv>
-      <Img src={D} alt="cartoon"/>
-      <p>Repositório: <a href="https://github.com/KarinPortfolio/cartoon" target="_blank">A</a></p>
-      <p>Site: <a href="http://cartoon-chi.vercel.app/" target="_blank">A</a></p>
-            
-      <Img src={E} alt="cade"/>
-      <p>Repositório: <a href="https://github.com/KarinPortfolio/cade" target="_blank">A</a></p>
-      <p>Site: <a href="http://karinportfolio.github.io/cade/" target="_blank">A</a></p>
+            <S.Port src={C} alt="estilosa"/>
+            <p>Repositório: <a href="https://github.com/KarinPortfolio/estilosa" target="_blank">https://github.com/KarinPortfolio/estilosa</a></p>
+            <p>Site: <a href="http://estilosa.vercel.app" target="_blank">http://estilosa.vercel.app</a></p>
+          </S.MioloDiv>
 
-      <Img src={F} alt="kristiel"/>
-      <p>Repositório: <a href="https://github.com/KarinPortfolio/teste" target="_blank">A</a></p>
-      <p>Site:  <a href="http://karinportfolio.github.io/teste/" target="_blank">A</a></p>
-      </MioloDiv>
+          <S.MioloDiv>
+            <S.Port src={D} alt="cartoon"/>
+            <p>Repositório: <a href="https://github.com/KarinPortfolio/cartoon" target="_blank">https://github.com/KarinPortfolio/cartoon</a></p>
+            <p>Site: <a href="http://cartoon-chi.vercel.app/" target="_blank">http://cartoon-chi.vercel.app/</a></p>
+      
+            <S.Port src={E} alt="cade"/>
+            <p>Repositório: <a href="https://github.com/KarinPortfolio/cade" target="_blank">https://github.com/KarinPortfolio/cade</a></p>
+            <p>Site: <a href="http://karinportfolio.github.io/cade/" target="_blank">http://karinportfolio.github.io/cade/</a></p>
 
-        </MioloSection>
+            <S.Port src={F} alt="kristiel"/>
+            <p>Repositório: <a href="https://github.com/KarinPortfolio/teste" target="_blank">https://github.com/KarinPortfolio/teste</a></p>
+            <p>Site:  <a href="http://karinportfolio.github.io/teste/" target="_blank">http://karinportfolio.github.io/teste/</a></p>
+          </S.MioloDiv>  
+
+        </S.MioloSection>
     )
 }
 export default Projetos

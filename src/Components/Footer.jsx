@@ -11,7 +11,7 @@ const Foot = styled.footer`
   `
 function Footer() {
   return (
-    <Foot>Desenvolvido para fins didáticos © 2024</Foot>      
+    <Foot>Desafio Final: Vai na Web - Desenvolvido para fins de aprendizado © 2024</Foot>      
   )
 }
 
