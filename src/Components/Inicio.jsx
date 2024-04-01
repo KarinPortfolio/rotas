@@ -1,21 +1,23 @@
 import React from "react"
-import Sobre from "./Sobre.jsx"
-import Projetos from "./Projetos.jsx"
 import styled from "styled-components"
+import peq from '../assets/tumb.jpg'
 
-const conteudoMain = styled.main`
-display: flex;
-height: 78vh;   
+const ConteudoMain = styled.main`
+    display: flex;
+    width: 100vw;
+    height: 80vh;   
     justify-content: center;
     align-items: center;
-    background-color: purple;
 `
-
+const Img = styled.img` 
+  height: 50vh;
+`
 function Inicio(){
     return(
-        <conteudoMain>   
-           Bem-vindo(a)!
-        </conteudoMain>
+        <ConteudoMain>   
+           Seja bem-vindo(a) ao site!
+           <Img src={peq} alt="mae"/>
+        </ConteudoMain>
     )
 }
 export default Inicio
