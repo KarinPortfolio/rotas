@@ -87,9 +87,6 @@ background-size: cover;
     height: auto;
   }
   `
-export const Topico = styled.p`
-  padding-top: 0.1px;
-`
 export const Interesses = styled.div`
 width: 40vw;
 height: 50vh;

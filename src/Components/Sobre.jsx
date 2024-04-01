@@ -20,9 +20,9 @@ function Sobre(){
             <S.Interesses>
             <h2>Interesses:</h2>            
             
-                    <S.Topico>- Desenvolvimento front-end (HTML, CSS, Javascript)</S.Topico> 
-                    <S.Topico>- Ler (culinária, jardinagem, autoconhecimento, programação)</S.Topico> 
-                    <S.Topico>- Artesanato (costurar, tricotar, crochetar, desenhar, robótica)</S.Topico> 
+                    <p>- Desenvolvimento front-end (HTML, CSS, Javascript)</p> 
+                    <p>- Ler (culinária, jardinagem, autoconhecimento, programação)</p> 
+                    <p>- Artesanato (costurar, tricotar, crochetar, desenhar, robótica)</p> 
             </S.Interesses> 
         
             </S.SobreMim>        

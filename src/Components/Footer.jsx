@@ -11,7 +11,7 @@ const Foot = styled.footer`
   `
 function Footer() {
   return (
-    <Foot>Desafio Final: Vai na Web - Desenvolvido para fins de aprendizado © 2024</Foot>      
+    <Foot>Desafio Final: Vai na Web - Desenvolvido por Karin Abe © 2024</Foot>      
   )
 }
 
