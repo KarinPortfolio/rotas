@@ -27,29 +27,29 @@ function Projetos(){
         <MioloSection>   
           <MioloDiv>
       <Img src={A} alt="bruzine"/>
-      <p>Repositório: https://github.com/KarinPortfolio/bruzine</p>
-      <p>Site: http://bruzine.vercel.app </p>
+      <p>Repositório: <a href="https://github.com/KarinPortfolio/bruzine" target="_blank">A</a></p>
+      <p>Site: <a href="http://bruzine.vercel.app" target="_blank">A</a> </p>
             
       <Img src={B} alt="fantastika"/>
-      <p>Repositório: https://github.com/KarinPortfolio/fantastika</p>
-      <p>Site: http://karinportfolio.github.io/fantastika/</p>
+      <p>Repositório: <a href="https://github.com/KarinPortfolio/fantastika" target="_blank">A</a></p>
+      <p>Site: <a href="http://karinportfolio.github.io/fantastika/" target="_blank">A</a></p>
 
       <Img src={C} alt="estilosa"/>
-      <p>Repositório: https://github.com/KarinPortfolio/estilosa</p>
-      <p>Site: http://estilosa.vercel.app</p>
+      <p>Repositório: <a href="https://github.com/KarinPortfolio/estilosa" target="_blank">A</a></p>
+      <p>Site: <a href="http://estilosa.vercel.app" target="_blank">A</a></p>
       </MioloDiv>
       <MioloDiv>
       <Img src={D} alt="cartoon"/>
-      <p>Repositório: https://github.com/KarinPortfolio/cartoon</p>
-      <p>Site: http://cartoon-chi.vercel.app/</p>
+      <p>Repositório: <a href="https://github.com/KarinPortfolio/cartoon" target="_blank">A</a></p>
+      <p>Site: <a href="http://cartoon-chi.vercel.app/" target="_blank">A</a></p>
             
       <Img src={E} alt="cade"/>
-      <p>Repositório: https://github.com/KarinPortfolio/cade</p>
-      <p>Site: http://karinportfolio.github.io/cade/</p>
+      <p>Repositório: <a href="https://github.com/KarinPortfolio/cade" target="_blank">A</a></p>
+      <p>Site: <a href="http://karinportfolio.github.io/cade/" target="_blank">A</a></p>
 
       <Img src={F} alt="kristiel"/>
-      <p>Repositório: https://github.com/KarinPortfolio/teste</p>
-      <p>Site:  http://karinportfolio.github.io/teste/</p>
+      <p>Repositório: <a href="https://github.com/KarinPortfolio/teste" target="_blank">A</a></p>
+      <p>Site:  <a href="http://karinportfolio.github.io/teste/" target="_blank">A</a></p>
       </MioloDiv>
 
         </MioloSection>

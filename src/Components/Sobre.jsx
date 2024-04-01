@@ -32,8 +32,8 @@ function Sobre(){
             <h2>Mnhas Redes:</h2>
 
             <MinhasRedes>            
-            <Img src={Git} alt="github"/> https://github.com/karinportfolio
-            <Img src={Lin} alt="linkedin"/> https://www.linkedin.com/in/karinabe/       
+            <a href="https://github.com/karinportfolio" target="_blank"> <Img src={Git} alt="github"/></a>
+            <a hreg="https://www.linkedin.com/in/karinabe/" target="_blank"><Img src={Lin} alt="linkedin"/></a>        
             </MinhasRedes>   
         </SobreMim>
         
