@@ -83,11 +83,12 @@ background-size: cover;
 border-radius: 20px;
 
 @media(min-width: 320px) and (max-width: 768px){
-    display: flex;
-    width: 80vw;
+    width: 100vw;
+    height: 20vh;
     font-size: 0.8rem;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    height: auto;
   }
   `
 export const Interesses = styled.div`
@@ -101,13 +102,13 @@ background-image: url(${background});
 border-radius: 20px;
 background-size: cover;
 
-@media(min-width: 320px) and (max-width: 768px){
-    display: flex;
-    width: 80vw;
+@media(min-width: 320px) and (max-width: 768px){    
+    width: 100vw;
+    height: 20vh;
     font-size: 0.8rem;
-    padding: 2rem;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    height: auto;
   }
 `
 export  const Pin = styled.img` 
