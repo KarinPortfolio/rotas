@@ -102,7 +102,6 @@ border-radius: 20px;
 background-size: cover;
 
 @media(min-width: 320px) and (max-width: 768px){
-  padding-top: 2rem;
     display: flex;
     width: auto;
     font-size: 0.8rem;
@@ -150,6 +149,7 @@ export const MioloImg = styled.img`
 
   @media(min-width: 320px) and (max-width: 768px){
     width: 80vw;
+    height: 35vh;
     flex-direction: column;
     height: auto;
   }
