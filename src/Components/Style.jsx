@@ -84,7 +84,7 @@ border-radius: 20px;
 
 @media(min-width: 320px) and (max-width: 768px){
     display: flex;
-    width: auto;
+    width: 40vw;
     font-size: 0.8rem;
     flex-direction: column;
     height: auto;
