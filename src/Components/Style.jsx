@@ -85,6 +85,7 @@ border-radius: 20px;
 @media(min-width: 320px) and (max-width: 768px){
     display: flex;
     width: auto;
+    font-size: 0.8rem;
     flex-direction: column;
     height: auto;
   }
@@ -101,8 +102,10 @@ border-radius: 20px;
 background-size: cover;
 
 @media(min-width: 320px) and (max-width: 768px){
+  padding-top: 2rem;
     display: flex;
     width: auto;
+    font-size: 0.8rem;
     padding: 2rem;
     flex-direction: column;
     height: auto;
@@ -110,6 +113,10 @@ background-size: cover;
 `
 export  const Pin = styled.img` 
   height: 10vh;
+
+  @media(min-width: 320px) and (max-width: 768px){
+     height: 5vh;     
+  }
 `
 //projetos
 export const MioloSection = styled.section`
@@ -140,6 +147,12 @@ export const MioloImg = styled.img`
   height: 35vh ;
   justify-content: space-evenly;
   align-content: center;  
+
+  @media(min-width: 320px) and (max-width: 768px){
+    width: 80vw;
+    flex-direction: column;
+    height: auto;
+  }
 `
 
 export const H2 = styled.h2`
