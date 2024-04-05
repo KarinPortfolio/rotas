@@ -84,7 +84,7 @@ border-radius: 20px;
 
 @media(min-width: 320px) and (max-width: 768px){
     display: flex;
-    width: 40vw;
+    width: 80vw;
     font-size: 0.8rem;
     flex-direction: column;
     height: auto;
@@ -103,7 +103,7 @@ background-size: cover;
 
 @media(min-width: 320px) and (max-width: 768px){
     display: flex;
-    width: auto;
+    width: 80vw;
     font-size: 0.8rem;
     padding: 2rem;
     flex-direction: column;
