@@ -6,39 +6,29 @@ import D from '../assets/D.png'
 import E from '../assets/E.png'
 import F from '../assets/F.png'
 import * as S from "./Style.jsx"
-
 function Projetos(){
+  const desafios = [
+    {imagem: D, titulo: "Cartoon", link: "https://github.com/KarinPortfolio/cartoon" , descricao: "react, map, styled-components, useState, useEffect, filter"},
+    {imagem: C, titulo: "Estilosa", link: "https://github.com/KarinPortfolio/estilosa", descricao: "react, styled-components,"},
+    {imagem: A, titulo: "Bruzine", link: "https://github.com/KarinPortfolio/bruzine", descricao: "react, useState"},
+    {imagem: F, titulo: "Kristel", link: "https://github.com/KarinPortfolio/teste", descricao: "react, styled-components"},
+    {imagem: B, titulo: "Fantastika", link: "https://github.com/KarinPortfolio/fantastika", descricao: "html, css, responsividade"},
+    {imagem: E, titulo: "Cadê", link: "https://github.com/KarinPortfolio/cade", descricao: "html, css, responsividade"}
+  ]
+
     return(
-        <S.MioloSection>   
+      <> 
+      {desafios.map((item) => (
+        <S.MioloSection>
           <S.MioloDiv>
-             <S.Port src={A} alt="bruzine"/>
-            <p>Repositório: <a href="https://github.com/KarinPortfolio/bruzine" target="_blank">https://github.com/KarinPortfolio/bruzine</a></p>
-            <p>Site: <a href="http://bruzine.vercel.app" target="_blank">http://bruzine.vercel.app</a> </p>
-            
-            <S.Port src={B} alt="fantastika"/>
-            <p>Repositório: <a href="https://github.com/KarinPortfolio/fantastika" target="_blank">https://github.com/KarinPortfolio/fantastika</a></p>
-            <p>Site: <a href="http://karinportfolio.github.io/fantastika/" target="_blank">http://karinportfolio.github.io/fantastika/</a></p>
-
-            <S.Port src={C} alt="estilosa"/>
-            <p>Repositório: <a href="https://github.com/KarinPortfolio/estilosa" target="_blank">https://github.com/KarinPortfolio/estilosa</a></p>
-            <p>Site: <a href="http://estilosa.vercel.app" target="_blank">http://estilosa.vercel.app</a></p>
-          </S.MioloDiv>
-
-          <S.MioloDiv>
-            <S.Port src={D} alt="cartoon"/>
-            <p>Repositório: <a href="https://github.com/KarinPortfolio/cartoon" target="_blank">https://github.com/KarinPortfolio/cartoon</a></p>
-            <p>Site: <a href="http://cartoon-chi.vercel.app/" target="_blank">http://cartoon-chi.vercel.app/</a></p>
-      
-            <S.Port src={E} alt="cade"/>
-            <p>Repositório: <a href="https://github.com/KarinPortfolio/cade" target="_blank">https://github.com/KarinPortfolio/cade</a></p>
-            <p>Site: <a href="http://karinportfolio.github.io/cade/" target="_blank">http://karinportfolio.github.io/cade/</a></p>
-
-            <S.Port src={F} alt="kristiel"/>
-            <p>Repositório: <a href="https://github.com/KarinPortfolio/teste" target="_blank">https://github.com/KarinPortfolio/teste</a></p>
-            <p>Site:  <a href="http://karinportfolio.github.io/teste/" target="_blank">http://karinportfolio.github.io/teste/</a></p>
-          </S.MioloDiv>  
-
+      <a href={item.link} target="_blank"><S.MioloImg src={item.imagem} alt="{item.titulo}" /></a>
+      <S.H2>{item.titulo}</S.H2>
+      <S.H3>{item.descricao}</S.H3>
+      </S.MioloDiv>
         </S.MioloSection>
+      
+    ))}
+    </>
     )
-}
+  }  
 export default Projetos

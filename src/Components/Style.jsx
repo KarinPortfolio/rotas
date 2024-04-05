@@ -17,7 +17,8 @@ export const ConteudoMain = styled.main`
 `
 
 export const Apresentacao = styled.div`
-   width: 60vw;     
+   width: 60vw;
+   font-stretch: expanded;
 `
 
 export const Img = styled.img` 
@@ -71,14 +72,15 @@ export const SobreMim = styled.section`
 `
  
 export const MinhasRedes = styled.div`
+flex-direction: row;
 width: 40vw;
 height: 50vh;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-flex-direction: row;
 background-image: url(${background});
 background-size: cover;
+border-radius: 20px;
 
 @media(min-width: 320px) and (max-width: 768px){
     display: flex;
@@ -88,13 +90,14 @@ background-size: cover;
   }
   `
 export const Interesses = styled.div`
+flex-direction: column;
 width: 40vw;
 height: 50vh;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-flex-direction: column;
 background-image: url(${background});
+border-radius: 20px;
 background-size: cover;
 
 @media(min-width: 320px) and (max-width: 768px){
@@ -110,8 +113,9 @@ export  const Pin = styled.img`
 `
 //projetos
 export const MioloSection = styled.section`
+justify-content: center;
 padding: 2rem;
-height: 80vh;
+height: 45vh;
 display: flex;
 align-items: center;
 
@@ -120,18 +124,29 @@ align-items: center;
     flex-direction: column;
     height: auto;
   }
-
-  
 `
+
 export const MioloDiv = styled.div`
+  background-color: #d6bcd4a7;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 1rem;
+  text-align: center;
+`
+export const MioloImg = styled.img`
  flex-direction: column; 
-  width: 80vw;  
+  width: 40vw;
+  height: 35vh ;
   justify-content: space-evenly;
-  align-content: center;
-  
+  align-content: center;  
 `
 
-export const Port = styled.img` 
-  height: 20vh;
-  padding: 0.8rem;
+export const H2 = styled.h2`
+  font-size: 1rem;
+`
+export const H3 = styled.h3`
+  font-size: 0.8rem;
+  color: grey;
+  font-style: italic;
 `
